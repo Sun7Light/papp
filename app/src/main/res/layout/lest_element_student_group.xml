@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:id="@+id/infoBlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/classTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Класс: "
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/letterTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Буква: "
+            android:textSize="18dp"
+            android:paddingTop="4dp"
+            />
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Дата поступления: "
+            android:textSize="18dp"
+            android:paddingTop="4dp"/>
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/btnRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:src="@drawable/baseline_create_white_24"
+            android:tint="@color/colorPrimary" />
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

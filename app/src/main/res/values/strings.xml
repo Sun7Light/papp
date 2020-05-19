@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PApp</string>
+    <string name="register_screen">Регистрация</string>
+    <string name="login_screen">Авторизация</string>
+    <string name="main_screen">Главная страница</string>
+    <string name="cities_screen">Города</string>
+    <string name="create_cities_screen">Создание города</string>
+    <string name="create_school_screen">Создание школы</string>
+    <string name="change_city_screen">Редактирование города</string>
+    <string name="change_school_screen">Редактирование школы</string>
+    <string name="schools_screen">Школы</string>
+    <string name="students_group_screen">Классы</string>
+    <string name="create_student_group_screen">Создание класса</string>
+    <string name="change_student_group_screen">Редактирование класса</string>
+    <string name="student_screen">Ученики</string>
+    <string name="create_student_screen">Создание ученика</string>
+    <string name="change_student_screen">Редактирование ученика</string>
+    <string name="personal_value_groups_screen">Группы характеристик</string>
+    <string name="characteristic_screen">Характеристики</string>
+    <string name="change_characteristic_screen">Редактирование характеристики</string>
+    <string name="create_characteristic_screen">Создание характеристики</string>
+
+    <string name="StudentClass">Класс: </string>
+    <string name="letter">Буква: </string>
+    <string name="start_date">Дата постуления: </string>
+    <string name="login">Псевдоним</string>
+    <string name="password">Пароль</string>
+    <string name="sign_in">Войти</string>
+    <string name="token">Токен</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="registration">Регистрация</string>
+    <string name="login_question">Нету учетной записи?</string>
+</resources>

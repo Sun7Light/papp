@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/nav_menu" android:checkableBehavior="single">
+        <item
+            android:id="@+id/cities"
+            android:icon="@drawable/baseline_apartment_white_24"
+            android:title="Справочники" />
+        <item
+            android:id="@+id/accounts"
+            android:icon="@drawable/baseline_group_white_24"
+            android:title="Учетные записи" />
+        <item
+            android:id="@+id/characteristics"
+            android:icon="@drawable/baseline_subject_white_24"
+            android:title="Характеристики" />
+        <item
+            android:id="@+id/tests_sessions"
+            android:title="Сеансы тестирования"
+            android:visible="false"/>
+        <item
+            android:id="@+id/tests"
+            android:title="Тесты"
+            android:icon="@drawable/baseline_subject_white_24"
+            android:visible="false"/>
+
+    </group>
+    <group android:id="@+id/footer" android:checkableBehavior="single">
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/baseline_exit_to_app_white_24"
+            android:title="Выйти" />
+    </group>
+</menu>

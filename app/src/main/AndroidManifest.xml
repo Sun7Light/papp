@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dproject.papp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".presentation.ui.core.RouteActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".presentation.ui.RegisterActivity"/>
+        <activity android:name=".presentation.ui.LoginActivity"/>
+        <activity android:name=".presentation.ui.HomeActivity"/>
+        <activity android:name=".presentation.ui.CreateCityActivity"/>
+        <activity android:name=".presentation.ui.ChangeCityActivity"/>
+        <activity android:name=".presentation.ui.SchoolsActivity"/>
+        <activity android:name=".presentation.ui.SchoolAddActivity"/>
+        <activity android:name=".presentation.ui.SchoolChangeActivity"/>
+        <activity android:name=".presentation.ui.StudentGroupActivity"/>
+        <activity android:name=".presentation.ui.StudentGroupAddActivity"/>
+        <activity android:name=".presentation.ui.StudentGroupChangeActivity"/>
+        <activity android:name=".presentation.ui.StudentActivity"/>
+        <activity android:name=".presentation.ui.StudentAddActivity"/>
+        <activity android:name=".presentation.ui.StudentChangeActivity"/>
+        <activity android:name=".presentation.ui.CharacteristicActivity"/>
+        <activity android:name=".presentation.ui.CharacteristicAddActivity"/>
+        <activity android:name=".presentation.ui.CharacteristicChangeActivity"/>
+    </application>
+
+</manifest>
